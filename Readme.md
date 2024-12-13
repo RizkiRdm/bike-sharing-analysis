@@ -18,3 +18,32 @@ extracted and added the corresponding weather and seasonal information. Weather 
 
 if you guys interested what about a visualization, don't worry, i have a basic dashboard that i build using streamlit.
 here's the link : https://bike-sharing-analysis-mxdcuhxlgdu93zb26imj9d.streamlit.app/
+
+or 
+
+you can copy this repository.
+
+and follow the instruction below : 
+
+### Bike sharing dashboard
+
+#### Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
+
+#### Setup Environment - Shell/Terminal
+```
+git clone git@github.com:RizkiRdm/bike-sharing-analysis.git
+cd bike-sharing-analysis
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+#### Run steamlit app
+```
+streamlit run dashboard/main.py
+```
