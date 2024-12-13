@@ -15,3 +15,6 @@ precipitation, day of week, season, hour of the day, etc. can affect the rental 
 the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is 
 publicly available in http://capitalbikeshare.com/system-data. We aggregated the data on two hourly and daily basis and then 
 extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com. 
+
+if you guys interested what about a visualization, don't worry, i have a basic dashboard that i build using streamlit.
+here's the link : https://bike-sharing-analysis-mxdcuhxlgdu93zb26imj9d.streamlit.app/
